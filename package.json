@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/becarchal/react-native-f2.git"
+    "url": "git+https://github.com/becarchal/react-f2charts.git"
   },
   "keywords": [
     "react",
@@ -34,9 +34,9 @@
   "author": "becarchal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/becarchal/react-native-f2/issues"
+    "url": "https://github.com/becarchal/react-f2charts/issues"
   },
-  "homepage": "https://github.com/becarchal/react-native-f2#readme",
+  "homepage": "https://github.com/becarchal/react-f2charts#readme",
   "dependencies": {
     "@antv/f2": "3.0.3",
     "element-resize-event": "2.0.9"
