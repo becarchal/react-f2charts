@@ -1,4 +1,4 @@
-# native-f2charts
+# react-f2charts
 
 [![NPM Version](https://img.shields.io/npm/v/react-f2charts.svg?style=flat)](https://www.npmjs.org/package/react-f2charts)
   [![npm](https://img.shields.io/npm/dm/react-f2charts.svg?style=flat)](https://www.npmjs.org/package/react-f2charts)
