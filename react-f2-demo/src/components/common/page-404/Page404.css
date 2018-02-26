@@ -1,0 +1,54 @@
+/* @font-face {
+  font-family: 'AaStrawberrySister';
+  src: url('./../../../theme/fontFamily/AaStrawberrySister.ttf');
+  src: url('./../../../theme/fontFamily/AaStrawberrySister.ttf') format('truetype');
+} */
+.mask {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDDDDD;
+    z-index: 2000;
+}
+
+.img {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.mask h1 {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+.mask h2 {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 25px;
+}
+.btn {
+  height: 30px;
+  width: 60px;
+  border: 1px solid #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.btnP {
+  color: #666666;
+}
+.mask h2 {
+  font-size: 14px;
+  color: #666666;
+}

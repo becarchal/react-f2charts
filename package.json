@@ -1,0 +1,84 @@
+{
+  "name": "react-f2charts",
+  "version": "1.0.0",
+  "description": "f2charts for react-native",
+  "main": "lib/index.js",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --watch",
+    "lint": "eslint src",
+    "clean": "rimraf lib/core.js && rimraf lib/index.js",
+    "demo": "webpack",
+    "dev": "webpack --watch",
+    "build": "npm run clean && cross-env NODE_ENV=production babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becarchal/react-native-f2.git"
+  },
+  "keywords": [
+    "react",
+    "f2charts",
+    "f2",
+    "react-f2",
+    "f2-react",
+    "chart",
+    "charts"
+  ],
+  "author": "becarchal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/becarchal/react-native-f2/issues"
+  },
+  "homepage": "https://github.com/becarchal/react-native-f2#readme",
+  "dependencies": {
+    "@antv/f2": "3.0.3",
+    "element-resize-event": "2.0.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.28.7",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-15": "^1.0.5",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "file-loader": "^1.1.6",
+    "jest": "^21.2.1",
+    "jest-canvas-mock": "^0.0.4",
+    "jsx-loader": "^0.13.2",
+    "react": "^15.5.0",
+    "react-adsense": "^0.0.3",
+    "react-dom": "^15.5.0",
+    "react-router": "^2.0.0",
+    "react-test-renderer": "^15.6.2",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}

@@ -1,0 +1,20 @@
+
+:global {
+  html, body, #root {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;    
+  },
+  body {
+    background-color: #fff;
+    color: #4d4d4d;
+    font-family: 'microsoft yahei','SimSun';
+    /* font-size: 1vmax; */
+    margin: 0 auto;
+    position:relative;
+    overflow: hidden;
+  },
+  .hide {
+    display: none;
+  }
+}
